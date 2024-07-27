@@ -23,12 +23,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={urbanist.className}>
-        <main>
-          <nav className="w-full h-12 bg-gradient-to-t from-gray-300 to-gray-100 py-2 justify-between flex">
+      <body className="bg-gradient-to-bl to-purple-300 from-pink-300 h-auto bg-no-repeat bg-fixed">
+        <main className="">
+          <nav className="w-full h-20 bg-gradient-to-b from-slate-200 from-50% via-slate-100 via-60% py-2 justify-between flex">
             <div className="flex">
-              <FontAwesomeIcon icon={faIceCream} className="inline-block text-4xl align-middle text-slate-600 px-2"/>
-              <h1 className="inline-block align-middle text-3xl px-2">Series Scoop</h1>
+              <FontAwesomeIcon icon={faIceCream} className="inline-block text-4xl align-middle text-pink-400 px-2"/>
+              <h1 className="inline-block align-middle text-3xl px-2 text-pink-400 font-bold">Series Scoop</h1>
             </div>
             
             {/* <div className="pr-2">
