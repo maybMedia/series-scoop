@@ -23,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="bg-gradient-to-bl to-purple-300 from-pink-300 h-auto bg-no-repeat bg-fixed">
+      <body className="bg-gradient-to-bl to-purple-300 from-pink-300 h-auto bg-no-repeat bg-fixed overflow-hidden">
         <main className="">
           <nav className="w-full h-20 bg-gradient-to-b from-slate-200 from-50% via-slate-100 via-60% py-2 justify-between flex">
             <div className="flex">
